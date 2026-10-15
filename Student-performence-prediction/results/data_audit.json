@@ -1,0 +1,315 @@
+{
+  "rows": 395,
+  "columns": 33,
+  "column_names": [
+    "school",
+    "sex",
+    "age",
+    "address",
+    "famsize",
+    "Pstatus",
+    "Medu",
+    "Fedu",
+    "Mjob",
+    "Fjob",
+    "reason",
+    "guardian",
+    "traveltime",
+    "studytime",
+    "failures",
+    "schoolsup",
+    "famsup",
+    "paid",
+    "activities",
+    "nursery",
+    "higher",
+    "internet",
+    "romantic",
+    "famrel",
+    "freetime",
+    "goout",
+    "Dalc",
+    "Walc",
+    "health",
+    "absences",
+    "G1",
+    "G2",
+    "G3"
+  ],
+  "data_types": {
+    "school": "str",
+    "sex": "str",
+    "age": "int64",
+    "address": "str",
+    "famsize": "str",
+    "Pstatus": "str",
+    "Medu": "int64",
+    "Fedu": "int64",
+    "Mjob": "str",
+    "Fjob": "str",
+    "reason": "str",
+    "guardian": "str",
+    "traveltime": "int64",
+    "studytime": "int64",
+    "failures": "int64",
+    "schoolsup": "str",
+    "famsup": "str",
+    "paid": "str",
+    "activities": "str",
+    "nursery": "str",
+    "higher": "str",
+    "internet": "str",
+    "romantic": "str",
+    "famrel": "int64",
+    "freetime": "int64",
+    "goout": "int64",
+    "Dalc": "int64",
+    "Walc": "int64",
+    "health": "int64",
+    "absences": "int64",
+    "G1": "int64",
+    "G2": "int64",
+    "G3": "int64"
+  },
+  "missing_values": {
+    "school": 0,
+    "sex": 0,
+    "age": 0,
+    "address": 0,
+    "famsize": 0,
+    "Pstatus": 0,
+    "Medu": 0,
+    "Fedu": 0,
+    "Mjob": 0,
+    "Fjob": 0,
+    "reason": 0,
+    "guardian": 0,
+    "traveltime": 0,
+    "studytime": 0,
+    "failures": 0,
+    "schoolsup": 0,
+    "famsup": 0,
+    "paid": 0,
+    "activities": 0,
+    "nursery": 0,
+    "higher": 0,
+    "internet": 0,
+    "romantic": 0,
+    "famrel": 0,
+    "freetime": 0,
+    "goout": 0,
+    "Dalc": 0,
+    "Walc": 0,
+    "health": 0,
+    "absences": 0,
+    "G1": 0,
+    "G2": 0,
+    "G3": 0
+  },
+  "duplicate_rows": 0,
+  "categorical_unique_values": {
+    "school": [
+      "GP",
+      "MS"
+    ],
+    "sex": [
+      "F",
+      "M"
+    ],
+    "address": [
+      "R",
+      "U"
+    ],
+    "famsize": [
+      "GT3",
+      "LE3"
+    ],
+    "Pstatus": [
+      "A",
+      "T"
+    ],
+    "Mjob": [
+      "at_home",
+      "health",
+      "other",
+      "services",
+      "teacher"
+    ],
+    "Fjob": [
+      "at_home",
+      "health",
+      "other",
+      "services",
+      "teacher"
+    ],
+    "reason": [
+      "course",
+      "home",
+      "other",
+      "reputation"
+    ],
+    "guardian": [
+      "father",
+      "mother",
+      "other"
+    ],
+    "schoolsup": [
+      "no",
+      "yes"
+    ],
+    "famsup": [
+      "no",
+      "yes"
+    ],
+    "paid": [
+      "no",
+      "yes"
+    ],
+    "activities": [
+      "no",
+      "yes"
+    ],
+    "nursery": [
+      "no",
+      "yes"
+    ],
+    "higher": [
+      "no",
+      "yes"
+    ],
+    "internet": [
+      "no",
+      "yes"
+    ],
+    "romantic": [
+      "no",
+      "yes"
+    ]
+  },
+  "numerical_ranges": {
+    "age": {
+      "min": 15.0,
+      "max": 22.0
+    },
+    "Medu": {
+      "min": 0.0,
+      "max": 4.0
+    },
+    "Fedu": {
+      "min": 0.0,
+      "max": 4.0
+    },
+    "traveltime": {
+      "min": 1.0,
+      "max": 4.0
+    },
+    "studytime": {
+      "min": 1.0,
+      "max": 4.0
+    },
+    "failures": {
+      "min": 0.0,
+      "max": 3.0
+    },
+    "famrel": {
+      "min": 1.0,
+      "max": 5.0
+    },
+    "freetime": {
+      "min": 1.0,
+      "max": 5.0
+    },
+    "goout": {
+      "min": 1.0,
+      "max": 5.0
+    },
+    "Dalc": {
+      "min": 1.0,
+      "max": 5.0
+    },
+    "Walc": {
+      "min": 1.0,
+      "max": 5.0
+    },
+    "health": {
+      "min": 1.0,
+      "max": 5.0
+    },
+    "absences": {
+      "min": 0.0,
+      "max": 75.0
+    },
+    "G1": {
+      "min": 3.0,
+      "max": 19.0
+    },
+    "G2": {
+      "min": 0.0,
+      "max": 19.0
+    },
+    "G3": {
+      "min": 0.0,
+      "max": 20.0
+    }
+  },
+  "invalid_value_counts": {
+    "age": 0,
+    "Medu": 0,
+    "Fedu": 0,
+    "traveltime": 0,
+    "studytime": 0,
+    "failures": 0,
+    "famrel": 0,
+    "freetime": 0,
+    "goout": 0,
+    "Dalc": 0,
+    "Walc": 0,
+    "health": 0,
+    "absences": 0,
+    "G1": 0,
+    "G2": 0,
+    "G3": 0
+  },
+  "target_distribution": {
+    "At Risk": 130,
+    "Average": 192,
+    "High Performance": 73
+  },
+  "features_used": [
+    "school",
+    "sex",
+    "age",
+    "address",
+    "famsize",
+    "Pstatus",
+    "Medu",
+    "Fedu",
+    "Mjob",
+    "Fjob",
+    "reason",
+    "guardian",
+    "traveltime",
+    "studytime",
+    "failures",
+    "schoolsup",
+    "famsup",
+    "paid",
+    "activities",
+    "nursery",
+    "higher",
+    "internet",
+    "romantic",
+    "famrel",
+    "freetime",
+    "goout",
+    "Dalc",
+    "Walc",
+    "health",
+    "absences"
+  ],
+  "excluded_leakage_columns": [
+    "G1",
+    "G2",
+    "G3"
+  ]
+}

@@ -1,0 +1,5 @@
+Model,Accuracy,Macro Precision,Macro Recall,Macro F1,Weighted F1,ROC-AUC,At Risk Precision,At Risk Recall,At Risk F1,Average Precision,Average Recall,Average F1,High Performance Precision,High Performance Recall,High Performance F1
+Logistic Regression,0.443,0.3965,0.3838,0.3849,0.4313,0.6233,0.45,0.3462,0.3913,0.4894,0.6053,0.5412,0.25,0.2,0.2222
+Random Forest,0.4937,0.4974,0.3892,0.3699,0.4303,0.6144,0.5,0.1923,0.2778,0.4923,0.8421,0.6214,0.5,0.1333,0.2105
+XGBoost,0.481,0.4577,0.4114,0.4097,0.4486,0.6043,0.4286,0.2308,0.3,0.5,0.7368,0.5957,0.4444,0.2667,0.3333
+CatBoost,0.5696,0.5441,0.5146,0.523,0.5605,0.6433,0.5909,0.5,0.5417,0.587,0.7105,0.6429,0.4545,0.3333,0.3846

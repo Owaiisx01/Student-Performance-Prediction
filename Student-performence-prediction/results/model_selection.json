@@ -1,0 +1,73 @@
+{
+  "selected_model": "CatBoost",
+  "selection_priority": "Macro F1, then At Risk recall, High Performance recall, ROC-AUC, and Weighted F1.",
+  "selected_metrics": {
+    "Accuracy": 0.569620253164557,
+    "Macro Precision": 0.544137022397892,
+    "Macro Recall": 0.5146198830409356,
+    "Macro F1": 0.5230463980463981,
+    "Weighted F1": 0.5605207029257662,
+    "ROC-AUC": 0.6432834998920418,
+    "At Risk Precision": 0.5909090909090909,
+    "At Risk Recall": 0.5,
+    "At Risk F1": 0.5416666666666666,
+    "Average Precision": 0.5869565217391305,
+    "Average Recall": 0.7105263157894737,
+    "Average F1": 0.6428571428571429,
+    "High Performance Precision": 0.45454545454545453,
+    "High Performance Recall": 0.3333333333333333,
+    "High Performance F1": 0.38461538461538464
+  },
+  "top_model_factors": [
+    {
+      "Feature": "Mjob",
+      "Importance": 10.267314335854245
+    },
+    {
+      "Feature": "absences",
+      "Importance": 10.11107563107291
+    },
+    {
+      "Feature": "guardian",
+      "Importance": 9.435679733078292
+    },
+    {
+      "Feature": "reason",
+      "Importance": 8.851240379193897
+    },
+    {
+      "Feature": "Fjob",
+      "Importance": 7.687462287238016
+    },
+    {
+      "Feature": "failures",
+      "Importance": 7.570794136557942
+    },
+    {
+      "Feature": "goout",
+      "Importance": 6.689482717491008
+    },
+    {
+      "Feature": "Medu",
+      "Importance": 3.5262702178229905
+    },
+    {
+      "Feature": "health",
+      "Importance": 3.229724867787465
+    },
+    {
+      "Feature": "Walc",
+      "Importance": 3.022778729531512
+    }
+  ],
+  "test_split": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "stratified": true
+  },
+  "leakage_exclusion": [
+    "G1",
+    "G2",
+    "G3"
+  ]
+}
